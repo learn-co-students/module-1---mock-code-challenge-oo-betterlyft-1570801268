@@ -15,7 +15,7 @@ class Ride
     end
 
     def self.total_distance #returns total distance of all rides
-        self.all.reduce(0) { |sum, ride| sum + ride.distance }
+        self.all.reduce(0.0) { |sum, ride| sum + ride.distance }
     end
 
     def self.average_distance
