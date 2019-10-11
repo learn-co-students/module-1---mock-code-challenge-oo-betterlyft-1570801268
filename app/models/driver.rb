@@ -20,9 +20,7 @@ class Driver
     def self.mileage_cap(distance)
         total = 0.0
         @@all.select do |driver|
-            driver.rides.all.select do |ride|
-                p ride.distance
-            end
+            
         end
     end
 
